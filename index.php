@@ -47,25 +47,12 @@ include 'database_connection.php'
 			if ($pages=='trainer') {
 				include './pages/trainer_content.php';
 			}
-			if ($pages=='schedule') {
-				include './pages/schedule_content.php';
-			}
-			if ($pages=='classes') {
-				include './pages/classes_content.php';
-			}
-			if ($pages=='sign-up') {
-				include './pages/sign-up_content.php';
+			if ($pages=='user_login') {
+				include './pages/user_login.php';
 			}
 			if ($pages=='registration') {
 				include './pages/registration_content.php';
 			}
-			  if ($pages=='user_profile') {
-			  	include './pages/user_profile_content.php';
-			  }
-			  if ($pages=='payment') {
-			  	include './pages/payment_content.php';
-			 }
-	
 		}else{
 			include'./pages/home_content.php';
 		}

@@ -1,6 +1,6 @@
 
 		<!-- end:fh5co-header -->
-		<!--
+		
 		<div class="fh5co-parallax" style="background-image: url(assets/front_end_assets/images/home-image-3.jpg);" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
@@ -14,7 +14,7 @@
 				</div>
 			</div>
 		</div>
-		-->
+		
 		<!-- end: fh5co-parallax -->
 		<!-- end:fh5co-hero -->
 		<div id="fh5co-contact">
