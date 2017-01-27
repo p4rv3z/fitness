@@ -1,8 +1,4 @@
 <?php
-session_start();
-include 'database_connection.php'
-?>
-<?php
   $name = "";
   $user_name = "";
   $user_image_path = "";
@@ -78,9 +74,10 @@ include 'database_connection.php'
 								<li class="active">
 									<a href="index.php">Home</a>
 								</li>
-								<li><a href="trainer.php">Trainers</a></li>
-								<li><a href="about.php">About</a></li>
-								<li><a href="contact_us.php">Contact</a></li>
+								<li><a href="#">Trainers</a></li>
+								<li><a href="#">Gallery</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Contact</a></li>
 								<?php
 									if(!$flag){
 								?>

@@ -1,3 +1,7 @@
+<?php
+session_start();
+include 'database_connection.php'
+?>
 <!DOCTYPE html>
  <html class="no-js">
 	<head>
@@ -55,12 +59,12 @@
 			if ($pages=='registration') {
 				include './pages/registration_content.php';
 			}
-			 // if ($pages=='user_profile') {
-			 // 	include './pages/user_profile_content.php';
-			 // }
-			 // if ($pages=='payment') {
-			 // 	include './pages/payment_content.php';
-			 // }
+			  if ($pages=='user_profile') {
+			  	include './pages/user_profile_content.php';
+			  }
+			  if ($pages=='payment') {
+			  	include './pages/payment_content.php';
+			 }
 	
 		}else{
 			include'./pages/home_content.php';
